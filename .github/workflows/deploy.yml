@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy Ghost Theme
-        uses: TryGhost/action-deploy-theme@v3
+        uses: TryGhost/action-deploy-theme@master
         
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
